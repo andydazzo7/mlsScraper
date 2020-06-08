@@ -54,4 +54,4 @@ app.get('/teams/:team', (req,res,next)=>{
       });
     });
 
-  app.listen((process.env.PORT || 5000)), () => console.log(`Example app listening at http://localhost:${port}`))
+  app.listen((process.env.PORT || 5000)), () => console.log(`Example app listening at http://localhost:${port}`)
