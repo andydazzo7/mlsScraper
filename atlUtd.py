@@ -50,8 +50,12 @@ for team in team_links:
         ##the article titles are in div objects with the name 'node-title' this line will give you a list of all of those.
         titles = driver.find_elements_by_class_name('node-title')
         times = driver.find_elements_by_class_name('timestamp')
+        images = driver.find_elements_by_class_name('field-items')
         ##loop through the titles and take their .text, which will get the title string, and add it to a list
         for i in range(5):
+            imgover = images[i]
+            img = imgover.find_element_by_tag_name('img').get_attribute('src')
+            print img
             title = titles[i]
             print(title.text)
             ##this will get the link to each article that is contained within the clickable title on the site
@@ -67,8 +71,8 @@ for team in team_links:
             date = times[i]
             print(date.text)
             dates.append(date.text)
-            sql = "INSERT INTO data (title, link, release_date, date_added, team) VALUES (%s, %s, %s, %s, %s)"
-            val = (title.text, link, date.text, dateToday, teamstr)
+            sql = "INSERT INTO data (title, link, release_date, date_added, team, image) VALUES (%s, %s, %s, %s, %s, %s)"
+            val = (title.text, link, date.text, dateToday, teamstr, img)
             mycursor.execute(sql, val)
             mydb.commit()
 

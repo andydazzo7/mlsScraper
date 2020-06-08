@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import api_conn from './api_conn'
+import {ArticleList} from './components/articlelist';
 export class App extends React.Component {
   constructor(props){
     super(props);
@@ -26,13 +27,11 @@ export class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <h1>Articles</h1>
-        <h2>{this.state.team}</h2>
-        <h3>{this.state.articleTitles.map(result=>result.title)}</h3>
+        <h1 className ='title'>Select Your Favorite Team, See the Latest Team News!</h1>
         <select className='picker 'onChange={this.handleChange}>
           <option value='atlutd'> Atlanta United</option>
           <option value='chicagofirefc'>Chicago Fire</option>
-          <option value='fccincinatti'>FC Cincinatti</option>
+          <option value='fccincinnati'>FC Cincinatti</option>
           <option value='coloradorapids'>Colorado Rapids</option>
           <option value='columbuscrewsc'>Columbus Crew</option>
           <option value='fcdallas'>FC Dallas</option>
@@ -59,6 +58,7 @@ export class App extends React.Component {
           <option value='whitecapsfc'>Vancouver Whitecaps FC</option>
 
         </select>
+        <ArticleList data={this.state.articleTitles}/>
       </div>
     );
   }

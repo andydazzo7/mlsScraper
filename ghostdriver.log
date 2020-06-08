@@ -1,12 +1,12 @@
-[INFO  - 2020-06-08T03:31:03.005Z] GhostDriver - Main - running on port 59521
-[INFO  - 2020-06-08T03:31:03.255Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2020-06-08T03:31:03.255Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.customHeaders:  - {}
-[INFO  - 2020-06-08T03:31:03.255Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2020-06-08T03:31:03.255Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7ad8c230-a938-11ea-add5-b1e11078f447
-[ERROR - 2020-06-08T03:31:04.050Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[INFO  - 2020-06-08T15:23:12.229Z] GhostDriver - Main - running on port 53576
+[INFO  - 2020-06-08T15:23:13.019Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-06-08T15:23:13.019Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.customHeaders:  - {}
+[INFO  - 2020-06-08T15:23:13.019Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-06-08T15:23:13.019Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7c55070-a99b-11ea-b237-df1176d0b120
+[ERROR - 2020-06-08T15:23:13.569Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:04.051Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:13.570Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5530036775001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5530036775001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5530036775001/default_default/index.min.js:1)
@@ -15,10 +15,10 @@
   (anonymous function) (https://players.brightcove.net/5530036775001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:05.188Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:14.249Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:05.188Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:14.249Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.atlutd.com/:163)
   k (https://www.atlutd.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
   fireWith (https://www.atlutd.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
@@ -26,52 +26,50 @@
   D (https://www.atlutd.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:10.127Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:15.590Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:10.127Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:15.590Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.atlutd.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2020-06-08T03:31:39.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:36:39.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:41:39.686Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:46:39.706Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:51:39.710Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:56:39.716Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:01:39.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:06:39.726Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:11:39.731Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:16:39.737Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:21:39.748Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:26:39.754Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+[INFO  - 2020-06-08T15:24:54.539Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:29:54.538Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:34:54.563Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:39:54.565Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:44:54.573Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:49:54.577Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:49:14.420Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+on [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-08T15:23:17.512Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
+  (anonymous function) (https://www.chicagofirefc.com/:162)
+  n (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+  fireWith (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+  ready (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:18.367Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:19.120Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:18.367Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
-  (anonymous function) (https://www.chicagofirefc.com/:33)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:20.112Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:20.112Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
+  phanto[INFO  - 2020-06-08T15:27:31.278Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:32:31.297Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:37:31.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:42:31.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:47:31.312Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:52:31.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ove.net/5805274507001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:20.325Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:20.368Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:20.325Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:20.368Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.fccincinnati.com/:163)
   k (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
   fireWith (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
@@ -79,17 +77,17 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   D (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:23.146Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:23.910Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:23.146Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:23.910Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.fccincinnati.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:24.966Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
+[ERROR - 2020-06-08T15:23:26.801Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:24.966Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:26.802Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894063001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894063001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894063001/default_default/index.min.js:1)
@@ -98,10 +96,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894063001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:25.443Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:27.166Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:25.443Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:27.166Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.coloradorapids.com/:168)
   k (https://www.coloradorapids.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
   fireWith (https://www.coloradorapids.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
@@ -109,10 +107,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   D (https://www.coloradorapids.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:36.853Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:23:32.775Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:36.854Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:32.775Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894066001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894066001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894066001/default_default/index.min.js:1)
@@ -121,10 +119,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894066001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:37.324Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:33.033Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:37.324Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:33.033Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.fcdallas.com/:171)
   n (https://www.fcdallas.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.fcdallas.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -132,17 +130,40 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.fcdallas.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:42.527Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:35.629Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:42.527Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:35.629Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+  (anonymous function) (https://players.brightcove.net/5534894065001/default_default/index.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-08T15:23:35.905Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-08T15:23:35.905Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
+  (anonymous function) (https://www.dcunited.com/:162)
+  n (https://www.dcunited.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+  fireWith (https://www.dcunited.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+  ready (https://www.dcunited.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+  B (https://www.dcunited.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-08T15:23:38.493Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-08T15:23:38.493Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.dcunited.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:44.606Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:23:41.101Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:44.606Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:41.101Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894067001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894067001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894067001/default_default/index.min.js:1)
@@ -151,10 +172,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894067001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:45.098Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:41.388Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:45.098Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:41.388Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.houstondynamo.com/:163)
   n (https://www.houstondynamo.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.houstondynamo.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -162,10 +183,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.houstondynamo.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:45.829Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: SyntaxError: DOM Exception 12: An invalid or illegal string was specified.
+[ERROR - 2020-06-08T15:23:41.905Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: SyntaxError: DOM Exception 12: An invalid or illegal string was specified.
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:45.830Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:41.905Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   postMessage (https://secure.quantserve.com/quant.js:2)
   d (https://secure.quantserve.com/quant.js:2)
   consent (https://secure.quantserve.com/quant.js:2)
@@ -181,17 +202,17 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://secure.quantserve.com/quant.js:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:46.431Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:42.610Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:46.431Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:42.610Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.houstondynamo.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:52.218Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:23:44.652Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:52.218Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:44.652Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894108001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894108001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894108001/default_default/index.min.js:1)
@@ -200,10 +221,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894108001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:52.572Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:23:44.872Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:52.572Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:44.872Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.lafc.com/:163)
   k (https://www.lafc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
   fireWith (https://www.lafc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
@@ -211,17 +232,17 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   D (https://www.lafc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:53.878Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:45.250Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:53.878Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:45.250Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.lafc.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:56.356Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:23:47.563Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:56.356Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:47.563Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894109001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894109001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894109001/default_default/index.min.js:1)
@@ -230,31 +251,31 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894109001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:58.008Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:48.808Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:31:58.008Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:48.808Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.lagalaxy.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:01.601Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:23:56.014Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:01.602Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:23:56.015Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.intermiamicf.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:16.834Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:07.566Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:16.835Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:07.566Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.impactmontreal.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:18.553Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+[ERROR - 2020-06-08T15:24:09.328Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:18.553Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:09.328Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/6088693098001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/6088693098001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/6088693098001/default_default/index.min.js:1)
@@ -262,10 +283,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/6088693098001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:18.956Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:24:09.606Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:18.957Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:09.607Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.nashvillesc.com/:168)
   n (https://www.nashvillesc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.nashvillesc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -273,10 +294,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.nashvillesc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:23.267Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:24:14.948Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:23.268Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:14.948Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5534894112001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894112001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5534894112001/default_default/index.min.js:1)
@@ -285,10 +306,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5534894112001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:23.682Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:24:15.521Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:23.682Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:15.521Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.revolutionsoccer.net/:162)
   n (https://www.revolutionsoccer.net/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.revolutionsoccer.net/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -296,31 +317,31 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.revolutionsoccer.net/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:25.925Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:20.695Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:25.925Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:20.695Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.revolutionsoccer.net/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:27.573Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: em
+[ERROR - 2020-06-08T15:24:24.256Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: em
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:27.574Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:24.257Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   global code (https://www.nycfc.com/:1145)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:29.869Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:27.344Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:29.869Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:27.345Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.nycfc.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:31.195Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:24:29.343Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:31.195Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:29.344Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5537314724001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314724001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314724001/default_default/index.min.js:1)
@@ -329,10 +350,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5537314724001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:31.449Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:24:29.640Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:31.449Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:29.641Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.newyorkredbulls.com/:162)
   n (https://www.newyorkredbulls.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.newyorkredbulls.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -340,24 +361,24 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.newyorkredbulls.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:33.525Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:31.557Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:33.525Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:31.557Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.newyorkredbulls.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:39.638Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:39.987Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:39.638Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:39.988Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.orlandocitysc.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:41.950Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:24:41.844Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:41.950Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:41.844Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5537314727001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314727001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314727001/default_default/index.min.js:1)
@@ -366,10 +387,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5537314727001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:42.941Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:24:42.490Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:42.941Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:42.490Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.philadelphiaunion.com/:168)
   n (https://www.philadelphiaunion.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.philadelphiaunion.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -377,10 +398,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.philadelphiaunion.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:53.289Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:24:52.396Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:53.289Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:52.396Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5539867199001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5539867199001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5539867199001/default_default/index.min.js:1)
@@ -389,10 +410,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5539867199001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:53.753Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:24:52.844Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:53.754Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:52.844Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.rsl.com/:163)
   n (https://www.rsl.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.rsl.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -400,31 +421,31 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.rsl.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:55.460Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:24:54.838Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:55.460Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:24:54.838Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.rsl.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:59.365Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:25:00.764Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:32:59.366Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:00.764Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.sjearthquakes.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:08.129Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:25:08.138Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:08.129Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:08.139Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.soundersfc.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:11.242Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
+[ERROR - 2020-06-08T15:25:13.588Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new A')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:11.242Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:13.588Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5539867203001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5539867203001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5539867203001/default_default/index.min.js:1)
@@ -433,10 +454,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5539867203001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:11.845Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:25:13.957Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:11.845Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:13.957Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.torontofc.ca/:163)
   n (https://www.torontofc.ca/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.torontofc.ca/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -444,17 +465,17 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.torontofc.ca/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:15.304Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:25:18.201Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:15.304Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:18.202Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.torontofc.ca/:33)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:17.667Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
+[ERROR - 2020-06-08T15:25:23.469Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:17.667Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:23.469Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://players.brightcove.net/5537314762001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314762001/default_default/index.min.js:1)
   (anonymous function) (https://players.brightcove.net/5537314762001/default_default/index.min.js:1)
@@ -463,10 +484,10 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   (anonymous function) (https://players.brightcove.net/5537314762001/default_default/index.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:18.088Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: ReferenceError: Can't find variable: bc
+[ERROR - 2020-06-08T15:25:23.847Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:18.089Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:23.847Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.whitecapsfc.com/:162)
   n (https://www.whitecapsfc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   fireWith (https://www.whitecapsfc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
@@ -474,21 +495,23 @@ update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
   B (https://www.whitecapsfc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:19.590Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
+[ERROR - 2020-06-08T15:25:26.940Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T03:33:19.596Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[ERROR - 2020-06-08T15:25:26.951Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
   (anonymous function) (https://www.whitecapsfc.com/:33)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2020-06-08T03:36:03.007Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:41:03.009Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:46:03.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:51:03.038Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T03:56:03.045Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:01:03.053Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:06:03.057Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:11:03.062Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:16:03.067Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:21:03.075Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T04:26:03.084Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:28:12.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:33:12.248Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:38:12.252Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:43:12.257Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:48:12.261Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:53:12.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ error
+[ERROR - 2020-06-08T15:44:11.666Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+  b (https://connect.facebook.net/en_US/sdk.js?hash=ac72720e45dc4d4fe1c8648e266d3b1c:52)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-06-08T15:46:54.641Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:51:54.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

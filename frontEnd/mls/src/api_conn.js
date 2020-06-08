@@ -6,7 +6,8 @@ let api_conn = {
                 team: data.team,
                 title: data.title,
                 link: data.link,
-                release: data.release_date
+                release: data.release_date,
+                image: data.image
 
 
             }));

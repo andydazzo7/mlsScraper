@@ -16,7 +16,7 @@ app.use((req, res, next) => {
   next();
 });
 app.get('/teams/:team', (req,res,next)=>{
-    con.query(`SELECT * FROM data WHERE date_added='June 07, 2020' AND team='${req.params.team}'`, function (err, result, fields) {
+    con.query(`SELECT * FROM data WHERE date_added='June 08, 2020' AND team='${req.params.team}'`, function (err, result, fields) {
     if (err) throw err;
     res.send(result);
     });
