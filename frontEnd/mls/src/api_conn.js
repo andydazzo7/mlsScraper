@@ -1,6 +1,6 @@
 let api_conn = {
     getArts(team){
-        return(fetch(`http://localhost:4000/teams/${team}`).then(response=>response.json()).then(jsonResponse=>{
+        return(fetch(`https://salty-island-77454.herokuapp.com/teams/${team}`).then(response=>response.json()).then(jsonResponse=>{
             console.log(jsonResponse);
             return jsonResponse.map(data =>({
                 team: data.team,
@@ -15,7 +15,7 @@ let api_conn = {
         );
     },
     getTops(){
-        return(fetch(`http://localhost:4000/tops`).then(response=>response.json()).then(jsonResponse=>{
+        return(fetch(`https://salty-island-77454.herokuapp.com/tops`).then(response=>response.json()).then(jsonResponse=>{
             console.log(jsonResponse);
             return jsonResponse.map(data =>({
                 team: data.team,
