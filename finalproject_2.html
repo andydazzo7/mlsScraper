@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style>
+  body {
+      font-family: verdana;
+      font-size:100%;
+      text-align: center;
+  }
+  h1 {text-align: center;}
+  ol {text-align: center; list-style-position: inside; margin-bottom: 5%;}
+  li {text-align: center;}
+  p {text-align: center;margin-bottom: 5%;}
+  button{margin-bottom: 5%;}
+</style>
+</head>
+
+<body id='a'>
+  <h1 id="demo" onmouseenter="mouseOver()" onmouseout="mouseOut()">What to do at the Grand Canyon:</h1>
+
+  <ol style="color:darkorange;font-family:verdana;font-size:160%;">
+    <li>Go hiking</li>
+    <li>Ride a mule</li>
+    <li>Ride a train</li>
+    <li>Take a scenic drive</li>
+    <li>Go camping in a tent or at an RV park</li>
+    <li>Go on a rafting trip</li>
+    <li>Take a helicopter tour</li>
+    <li>Ride a bike around the rim of the canyon</li>
+    <li>Stand on the Grand Canyon Skywalk</li>
+    <li>Take a Desert Jeep Tour</li>
+    </ol>
+
+<p style="color:tomato;font-family:verdana;font-size:100%;">Here are a few pictures of me partaking in some of these activities listed above.They were taken on my summer vacation at the Grand Canyon in 2017.</p>
+
+<p>
+<img src="grandcanyon_1.jpeg" alt="The Grand Canyon" width="500" height="700">
+  </p>
+<button id="hike1" style="color:tomato;font-family:verdana;font-size:100%;" onclick="clicker()">Click to see what I'm doing here!</button>
+
+<p>
+<img src="grandcanyon_6.jpeg" alt="The Grand Canyon" width="500" height="700">
+    </p>
+<p style="color:tomato;font-family:verdana;font-size:90%;">Here are mules we spotted while hiking.</p>
+
+<p>
+<img src="grandcanyon_12.jpeg" alt="The Grand Canyon" width="700" height="500">
+      </p>
+<p style="color:tomato;font-family:verdana;font-size:90%;">Here’s my family and I bike riding around the rim.</p>
+<h1> GRAND CANYON WEATHER TODAY</h1>
+<button onclick="fetcher()">click to reveal weather</button>
+<p id='factsHolder'></p>
+
+
+
+<script>
+  function mouseOver() {
+    document.getElementById("demo").style.color = "darkorange";
+    document.getElementById('a').style.backgroundImage = 'url(https://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg)';
+    console.log('change');
+  }
+
+  function mouseOut() {
+    document.getElementById("demo").style.color = "tomato";
+    document.getElementById('a').style.backgroundImage = 'none';
+    console.log('changeBack');
+  }
+  function clicker(){
+    document.getElementById("hike1").innerText="Hiking!";
+  }
+  function holder(){
+    //second button, maybe you hold the mouse down (onmousedown) and it'll say what the pic is
+  }
+  function fetcher(){
+  fetch('http://api.openweathermap.org/data/2.5/weather?q=Phoenix&appid=278145c7cfe2435a2542c751b93845ba')
+  .then(response => response.json())
+  .then(data => document.getElementById('factsHolder').innerText = 'The temperatue is ' + (((data.main.temp- 273.15) * 9/5) + 32).toFixed(2) + ' degrees');
+  }
+</script>
+</body>
+</html>
