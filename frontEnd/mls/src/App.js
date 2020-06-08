@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import api_conn from './api_conn'
 import {ArticleList} from './components/articlelist';
+import {TopList} from './components/topList'
 export class App extends React.Component {
   constructor(props){
     super(props);
     this.state={
       team:'atlutd',
-      articleTitles : []
+      articleTitles : [],
+      tops: []
     }
     this.handleChange = this.handleChange.bind(this);
   }
@@ -23,10 +25,14 @@ export class App extends React.Component {
     api_conn.getArts(this.state.team).then(result=>{
       console.log(result[0].title);
       this.setState({articleTitles: result})})
+      api_conn.getTops().then(result=>{
+        console.log(result[0].title);
+        this.setState({tops: result})})
   }
   render(){
     return (
       <div className="App">
+        <TopList data={this.state.tops}/>
         <h1 className ='title'>Select Your Favorite Team, See the Latest Team News!</h1>
         <select className='picker 'onChange={this.handleChange}>
           <option value='atlutd'> Atlanta United</option>
@@ -58,6 +64,7 @@ export class App extends React.Component {
           <option value='whitecapsfc'>Vancouver Whitecaps FC</option>
 
         </select>
+        
         <ArticleList data={this.state.articleTitles}/>
       </div>
     );

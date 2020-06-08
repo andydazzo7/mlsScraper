@@ -39,52 +39,36 @@
 [INFO  - 2020-06-08T15:39:54.565Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2020-06-08T15:44:54.573Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2020-06-08T15:49:54.577Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T15:54:54.590Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:32:11.464Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:37:11.463Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:42:11.462Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:47:11.462Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:52:11.486Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:57:11.491Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:02:11.495Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:07:11.499Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:12:11.503Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:17:11.508Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:22:11.512Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:27:11.525Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
  - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:49:14.420Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-on [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:17.512Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
-  (anonymous function) (https://www.chicagofirefc.com/:162)
-  n (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
-  fireWith (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
-  ready (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
-  B (https://www.chicagofirefc.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1:2)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:19.120Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
-
-  phanto[INFO  - 2020-06-08T15:27:31.278Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:32:31.297Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:37:31.306Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:42:31.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:47:31.312Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:52:31.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-ove.net/5805274507001/default_default/index.min.js:1)
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
-  (anonymous function) (https://players.brightcove.net/5805274507001/default_default/index.min.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:20.368Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: ReferenceError: Can't find variable: bc
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:20.368Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
-  (anonymous function) (https://www.fccincinnati.com/:163)
-  k (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
-  fireWith (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
-  ready (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
-  D (https://www.fccincinnati.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2:2)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:23.910Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'domain.includes(".com")')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:23.910Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
-  (anonymous function) (https://www.fccincinnati.com/:33)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2020-06-08T15:23:26.801Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
+[INFO  - 2020-06-08T22:26:31.370Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:29:48.200Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:34:48.199Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:39:48.198Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:44:48.199Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:49:48.221Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:54:48.225Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:59:48.229Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:04:48.234Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:09:48.239Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:14:48.245Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:19:48.251Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:24:48.262Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:29:48.271Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+c55070-a99b-11ea-b237-df1176d0b120] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new S')
 
   phantomjs://platform/console++.js:263 in error
 [ERROR - 2020-06-08T15:23:26.802Z] Session [f7c55070-a99b-11ea-b237-df1176d0b120] - page.onError - stack:
@@ -508,10 +492,26 @@ ove.net/5805274507001/default_default/index.min.js:1)
 [INFO  - 2020-06-08T15:43:12.257Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2020-06-08T15:48:12.261Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2020-06-08T15:53:12.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
- error
-[ERROR - 2020-06-08T15:44:11.666Z] Session [7ad8c230-a938-11ea-add5-b1e11078f447] - page.onError - stack:
+[INFO  - 2020-06-08T21:30:29.147Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:35:29.157Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:40:29.158Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:45:29.158Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:50:29.181Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T21:55:29.186Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:00:29.191Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:05:29.196Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:10:29.202Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:15:29.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:20:29.212Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:25:29.226Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:30:29.233Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ stack:
   b (https://connect.facebook.net/en_US/sdk.js?hash=ac72720e45dc4d4fe1c8648e266d3b1c:52)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2020-06-08T15:46:54.641Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2020-06-08T15:51:54.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:04:11.564Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:09:11.575Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:14:11.577Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:19:11.582Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:24:11.597Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2020-06-08T22:29:11.603Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

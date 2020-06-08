@@ -1,0 +1,17 @@
+.release{
+    color: white;
+}
+.art{
+    width: 400px;
+    display: inline-block;
+    border: solid 1px gray;
+    margin: 10px;
+    border-radius: 5%;
+}
+.thumbnail{
+    left: 0%;
+    display: inline;
+    width: 200px;
+    padding: 10px;
+}
+
