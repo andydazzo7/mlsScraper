@@ -37,7 +37,8 @@ app.use((req, res, next) => {
 });
 
 app.get('/teams/:team', (req,res,next)=>{
-  var today = formatDateToString(new Date());
+    var today = formatDateToString(new Date());
+    console.log(today)
     con.query(`SELECT * FROM data WHERE date_added='${today}' AND team='${req.params.team}'`, function (err, result, fields) {
     if (err) throw err;
     res.send(result);
