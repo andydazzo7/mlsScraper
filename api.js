@@ -57,7 +57,7 @@ app.get('/teams/:team', (req,res,next)=>{
     var dtoday  = new Date();
     var today2 = dtoday.toLocaleDateString('en-us', options);
     console.log(today2);
-      con.query(`SELECT DISTINCT * FROM data WHERE release_date='${today2}'`, function (err, result, fields) {
+      con.query(`SELECT DISTINCT * FROM data WHERE release_date='${today2}' LIMIT 7`, function (err, result, fields) {
       if (err) throw err;
       res.send(result);
       });
