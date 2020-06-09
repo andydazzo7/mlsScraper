@@ -24,6 +24,13 @@ function formatDateToString(date){
   // create the format you want
   return ( MM + " " + dd + ", " + yyyy);
 }
+var date = new Date();
+var invdate = new Date(date.toLocaleString('en-US', {
+  timeZone: 'America/New_York'
+}));
+console.log(invdate)
+var diff = date.getTime() - invdate.getTime();
+console.log(new Date(date.getTime() + diff));
 console.log(formatDateToString(new Date()));
 
 app.use(compression());
@@ -38,7 +45,7 @@ app.use((req, res, next) => {
 
 app.get('/teams/:team', (req,res,next)=>{
     var options = {timeZone: 'America/New_York'};
-    var today = formatDateToString(new Date().toLocaleDateString(options));
+    var today = formatDateToString(new Date());
     console.log(today)
     con.query(`SELECT * FROM data WHERE date_added='${today}' AND team='${req.params.team}'`, function (err, result, fields) {
     if (err) throw err;
@@ -56,4 +63,4 @@ app.get('/teams/:team', (req,res,next)=>{
       });
     });
 
-  app.listen((process.env.PORT || 5000)), () => console.log(`Example app listening at http://localhost:${port}`)
+  app.listen((port), () => console.log(`Example app listening at http://localhost:${port}`))
