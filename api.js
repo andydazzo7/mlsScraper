@@ -47,7 +47,7 @@ app.get('/teams/:team', (req,res,next)=>{
     var options = {timeZone: 'America/New_York'};
     var today = formatDateToString(new Date());
     console.log(today)
-    con.query(`SELECT * FROM data WHERE date_added='${today}' AND team='${req.params.team}'`, function (err, result, fields) {
+    con.query(`SELECT DISTINCT * FROM data WHERE date_added='${today}' AND team='${req.params.team}'`, function (err, result, fields) {
     if (err) throw err;
     res.send(result);
     });
@@ -57,10 +57,10 @@ app.get('/teams/:team', (req,res,next)=>{
     var dtoday  = new Date();
     var today2 = dtoday.toLocaleDateString('en-us', options);
     console.log(today2);
-      con.query(`SELECT * FROM data WHERE release_date='${today2}'`, function (err, result, fields) {
+      con.query(`SELECT DISTINCT * FROM data WHERE release_date='${today2}'`, function (err, result, fields) {
       if (err) throw err;
       res.send(result);
       });
     });
-
+//
   app.listen((process.env.PORT || 5000), () => console.log(`Example app listening at http://localhost:${port}`))
