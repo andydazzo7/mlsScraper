@@ -44,7 +44,7 @@ app.get('/teams/:team', (req,res,next)=>{
     });
   });
   app.get('/tops', (req,res,next)=>{
-    var options = { year: 'numeric', month: 'long', day: 'numeric' };
+    var options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/New_York'};
     var dtoday  = new Date();
     var today2 = dtoday.toLocaleDateString('en-us', options);
     console.log(today2);
