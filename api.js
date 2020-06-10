@@ -47,7 +47,7 @@ app.get('/teams/:team', (req,res,next)=>{
     var options = {timeZone: 'America/New_York'};
     var today = formatDateToString(new Date());
     console.log(today)
-    con.query(`SELECT DISTINCT * FROM data WHERE date_added='${today}' AND team='${req.params.team}'`, function (err, result, fields) {
+    con.query(`SELECT DISTINCT * FROM data WHERE date_added='${today}' AND team='${req.params.team}' LIMIT 6`, function (err, result, fields) {
     if (err) throw err;
     res.send(result);
     });
