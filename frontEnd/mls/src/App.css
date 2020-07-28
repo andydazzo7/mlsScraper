@@ -14,5 +14,10 @@ a{
   font-size: 18px;
   padding: 10px;
   margin: 10px;
+  width:500px;
+  border-radius: 5px;
+}
+.break{
+
 }
 

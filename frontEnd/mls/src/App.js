@@ -4,6 +4,8 @@ import './App.css';
 import api_conn from './api_conn'
 import {ArticleList} from './components/articlelist';
 import {TopList} from './components/topList'
+import Nav from './nav'
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 export class App extends React.Component {
   constructor(props){
     super(props);
@@ -32,9 +34,14 @@ export class App extends React.Component {
   render(){
     return (
       <div className="App">
+        
+        <Nav/>
+        <h1 id='home' className ='title' style={{marginBottom:30}}>Welcome to MLS Newsroom, Your One Stop Shop for All things MLS Soccer!</h1>
+        <hr className='break'></hr>
         <TopList data={this.state.tops}/>
-        <h1 className ='title'>Select Your Favorite Team, See the Latest Team News!</h1>
-        <select className='picker 'onChange={this.handleChange}>
+        <hr className='break'></hr>
+        <h2 className ='title' style={{marginTop:150}}>Select Your Favorite Team, See the Latest Team News!</h2>
+        <select  id='list' className='picker 'onChange={this.handleChange}>
           <option value='atlutd'> Atlanta United</option>
           <option value='chicagofirefc'>Chicago Fire</option>
           <option value='fccincinnati'>FC Cincinatti</option>
@@ -65,7 +72,8 @@ export class App extends React.Component {
 
         </select>
         
-        <ArticleList data={this.state.articleTitles}/>
+        <ArticleList  data={this.state.articleTitles}/>
+        <div style={{height:200}}></div>
       </div>
     );
   }

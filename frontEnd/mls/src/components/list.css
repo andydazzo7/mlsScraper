@@ -1,5 +1,5 @@
 .release{
-    color: white;
+    color: black;
 }
 .art{
     width: 400px;
@@ -7,11 +7,19 @@
     border: solid 1px gray;
     margin: 10px;
     border-radius: 5%;
+    color:black;
 }
 .thumbnail{
     left: 0%;
     display: inline;
     width: 200px;
     padding: 10px;
+}
+p{
+    color:black;
+}
+.title2{
+    color:black;
+    font-size: 18px;
 }
 
