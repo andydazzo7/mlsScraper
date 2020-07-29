@@ -6,6 +6,7 @@ import {ArticleList} from './components/articlelist';
 import {TopList} from './components/topList'
 import Nav from './nav'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import Bottom from './Bottom';
 export class App extends React.Component {
   constructor(props){
     super(props);
@@ -74,6 +75,7 @@ export class App extends React.Component {
         
         <ArticleList  data={this.state.articleTitles}/>
         <div style={{height:200}}></div>
+        <Bottom/>
       </div>
     );
   }

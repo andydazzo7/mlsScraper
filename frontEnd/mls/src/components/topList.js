@@ -12,6 +12,7 @@ export class TopList extends React.Component{
                       className="d-block w-100"
                       src={data.image}
                       alt={'Mls player'}
+                      style={{opacity:0.3, imageRendering:'auto', height:'auto', width:'100%'}}
                     />
                     <Carousel.Caption style={{backgroundColor:'rgba(255,255,255, 0.5)', borderRadius:'10px', height: '100px'}}>
                       <a style={{textDecoration:'none', color:'black',}} href={data.link}><h3 style={{fontSize:'19px'}}>{data.title}</h3></a>
